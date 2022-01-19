@@ -14,7 +14,7 @@ for b in range(h,-1,-1):
         for j in range(s,-1,-1):
             y = 1
             print(j,end='')
-            sleep(.1)
+            sleep(1)
             for k in range(len(str(j))):
                 print("\b \b",end='')
         for d in range(len(str(i))+1):
